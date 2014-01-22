@@ -1,0 +1,11 @@
+A ffmpeg based random movie editor. 
+Uses ffmpeg's scene change detection algorithm to cut a video file up and reassemble it randomly. 
+Makes for good fun with movies you know well. It's also fun to try and follow the plot of movies you have never seen. The resulting products can be extremely annoying to watch. 
+
+Usage:
+./cutter.sh {input clip}
+
+The output clip will just be named OUTPUT.{whatever extension} and go in the scripts folder (gotta fix that)
+
+
+Its still very rough. It doesnt like file names with spaces, so its better to rename the input clip first. Also takes quite a bit of time, and at least double the size of the movie clip in hard drive space. 
